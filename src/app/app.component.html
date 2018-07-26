@@ -1,0 +1,134 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
+  <!-- Control the column width, and how they should appear on different devices -->
+<!-- <div class="row"> -->
+  <div class="col-xl-12" id="nav" style="background-color:rgba(0, 0, 0, 0.4);">
+  <a href="#top_link"><button class="lnk"><img src="assets/images/logo.png" style="width: 70px;" alt=""></button></a>
+  <a href="#about_link"><button class="lnk">About</button></a>
+  <a href="#projects_link"><button class="lnk">Projects</button></a>
+  <a href="#contact_link"><button class="lnk">Contact</button></a>
+  </div>
+  <a id="top_link"></a>
+<div class="row" id="landing" class="container-fluid">
+    <div class="col-sm-12">
+      <h1 id="name">Hector Zavala</h1>
+      <p>Web Designer Web Developer Graphic Designer</p>
+    </div>
+</div>
+
+<a id="about_link"></a>
+<div class="row" id="about" class="container-fluid">
+    <h1 id="heading">Meet The Coder</h1>
+<div class="row">
+
+
+<div class="col-sm-6" id="icons">
+    <i class="devicon-html5-plain"></i>
+    <i class="devicon-css3-plain"></i>
+    <br><br>
+  <i class="devicon-javascript-plain"></i>
+  <i class="devicon-photoshop-plain"></i>
+  <i class="devicon-typescript-plain"></i>
+  <br><br>
+<i class="devicon-wordpress-plain"></i>
+<i class="devicon-angularjs-plain"></i>
+<i class="devicon-sass-original"></i>
+  <i class="devicon-gimp-plain"></i>
+    </div>
+
+    <div class="col-sm-5">
+        <p>My name is Hector zavala and I am a freelance coder who creates clean and easy to use websites. I specialize in web design, web development and graphic design. I am currently undergoing an internship at Bitwise Industries and the Geekwise Acadamy in Fresno, CA. I am also majoring in computer information Systems at West Hills College in Lemoore, CA. I enjoy the creative freedom that comes with coding and the millions of possibilities.</p>
+        </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<a id="projects_link"></a>
+<div id="projects">
+  <div class="container-fluid mx-auto">
+    <div class="container">
+        <div class="row">
+        <div class="col my-auto " style="padding:2rem;">
+          <h1>Clean and Responsive Designs</h1>
+
+          <div class="d-flex justify-content-between" id="proj-nav">
+              <a id="theme-link" (click)="ShowOneButton()">Music Template</a>
+              <a id="theme-link" (click)="ShowTwoButton()">Artist Profile</a>
+              <a id="theme-link" (click)="ShowThreeButton()">Clothing Company</a>
+          </div>
+          <br><br>
+          <p *ngIf="showProjectOne"><b>Music Project:</b> This is a personal project. Aiming to give a platform to all artists. The opportunity for interviews and featured projects, submit form.</p>
+          <p *ngIf="showProjectTwo"><b>Artist Profile Template:</b> Angular Project. Mobile friendly. Designed to be minimalistic yet promote important parts of an artists life, autoplay video, tour dates, shop and join mailing list options. Close video button.</p>
+          <p *ngIf="showProjectThree"><b>Clothing Brand Template:</b> Single Page angular. Mobile friendly. Clean and minimalistic. Toggle between 3 collections. Overlay pop out for any extra navigation.</p>
+        </div>
+        <div class="col-6" id="one" *ngIf="showProjectOne">
+        </div>
+        <div class="col-6" id="two"  *ngIf="showProjectTwo">
+        </div>
+        <div class="col-6" id="three" *ngIf="showProjectThree">
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+<a id="contact_link"></a>
+<div class="jumbotron jumbotron-fluid" id="contact">
+  <div class="container">
+
+      <h1 id="heading">Contact</h1>
+      <p>If you would like to get in contact with me, fill out the form below or browse my social media profiles.</p>
+
+      <form action="mailto:codedbyhector@gmail.com" method="post" enctype="text/plain">
+<div class="col-6 mx-auto">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon2">
+        <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon2">
+      </div>
+
+</div>
+
+
+
+
+
+<div class="col-6 mx-auto">
+      <div class="input-group mb-3">
+
+          <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+      </div>
+        <div class="input-group">
+            <textarea class="form-control mb-3" placeholder="Project details, requests, pricing etc." aria-label="With textarea"></textarea>
+        </div>
+        <div class="input-group-append">
+            <button type="submit" value="send" class="btn btn-primary btn-lg btn-block">Send</button>
+          </div>
+</div>
+
+</form>
+
+
+<br>
+
+      <a href="https://github.com/hectorBWA"><i class="devicon-github-plain-wordmark"></i></a>
+      <a href="https://www.facebook.com/codedbyhector"><i class="devicon-facebook-plain"></i></a>
+      <a href="https://linkedin.com/in/hector-zavala-597690156/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+
+
+
+
+
